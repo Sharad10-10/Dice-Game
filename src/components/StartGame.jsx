@@ -1,7 +1,7 @@
 import React from 'react'
-import Dices from '../src/images/dices 1.png'
+import Dices from '/public/images/dices 1.png'
 import Styled from 'styled-components'
-import {Button} from '../components/buttons/buttons'
+import {Button} from './buttons/buttons'
 
 const StartGame = ({ toggle }) => {
   return (

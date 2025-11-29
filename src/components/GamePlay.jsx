@@ -56,11 +56,14 @@ export const GamePlay = () => {
         <RollDice currentDice = {currentDice} rollDice = {rollDice}/>
         <div className="buttons">
             <Button onClick = {resetScore}>Reset</Button>
-            <Button onClick={toggleRules}>Show Rules</Button>
+            {/* <Button onClick={toggleRules}>Show Rules</Button> */}
+            <Button onClick={()=>setShowRules(true)}>Show Rules</Button>
         </div>
       </MainContainer>
 
-      {showRules ? <Rules /> : ""}
+      {showRules && <Rules onClose={() => setShowRules(false)} />}
+
+      {/* {showRules ? <Rules /> : ""} */}
     </>
   );
 };

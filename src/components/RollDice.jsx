@@ -5,15 +5,10 @@ import Styled from 'styled-components';
 
 const RollDice = ({ currentDice, rollDice }) => {
     
-    
-
-    
-
-
   return (
     <DiceContainer>
         <div className='dice' onClick={rollDice}>
-            <img src={`../src/images/dice_${currentDice}.png`} alt="dice-1" />
+            <img src={`/images/dice_${currentDice}.png`} alt="dice-1" />
         </div>
         <p>Click on Dice to roll</p>
     </DiceContainer>
@@ -38,3 +33,5 @@ const DiceContainer = Styled.div `
     }
 
 `
+
+

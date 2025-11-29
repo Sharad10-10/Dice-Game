@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import Styled from 'styled-components';
+// import './App.css'
+// import StartGame from './StartGame';
+// import { GamePlay } from './GamePlay';
 import '../components/App.css'
+// import { StartGame } from '../components/StartGame'
 import StartGame from './StartGame';
-import { GamePlay } from './GamePlay';
+import { GamePlay } from '../components/GamePlay'
+
 
 const Button = Styled.button `
   background-color : black;

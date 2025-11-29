@@ -1,20 +1,27 @@
+Link to the live demo....
+
+https://dice-game-peach-eta.vercel.app/
+
+
 🛠 Technologies
 React
 Styled Components
 JavaScript (ES6+)
 
 
-//clone the repository
 # Clone the repository
 git clone https://github.com/Sharad10-10/Dice-Game.git
 cd Dice-Game
 
 
-below lets you install all dependencies for this project
 # Install dependencies  
+
+below lets you install all dependencies for this project...........
+
 npm install
 
-/Run the server and try this game......
+
+
 # Start development server
 npm run dev
 

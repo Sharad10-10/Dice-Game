@@ -1,23 +1,46 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# Dice-Game
-A fully functional dice game built on React JS
-=======
->>>>>>> my-changes
-# React + Vite
+🛠 Technologies
+React
+Styled Components
+JavaScript (ES6+)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+//clone the repository
+# Clone the repository
+git clone https://github.com/Sharad10-10/Dice-Game.git
+cd Dice-Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+below lets you install all dependencies for this project
+# Install dependencies  
+npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-<<<<<<< HEAD
-=======
->>>>>>> f49c177 (Initial Commit)
->>>>>>> my-changes
+/Run the server and try this game......
+# Start development server
+npm run dev
+
+
+
+
+🎲 Dice Game
+A fun and interactive dice game built with React where users guess the outcome of dice rolls to score points!
+🎮 About
+To play you need to select a number (1-6), roll the dice, and test your luck! Match the dice to gain points, miss and lose 2 points. See how high you can score!
+
+Following are the features that i have implemented in this project.....
+✨ Features
+
+Interactive number selection and dice rolling
+Real-time score tracking
+Game rules modal
+Reset functionality
+Smooth animations and hover effects
+
+
+There is a button which displays the rules in popup but still here are some tips how you can play the game.....
+🎯 How to Play
+
+Click "Play Now" to start
+Select a number from 1 to 6
+Click the dice to roll
+Match = Gain points (equal to dice number)
+Miss = Lose 2 points
